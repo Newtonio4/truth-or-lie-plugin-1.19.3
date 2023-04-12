@@ -1,0 +1,41 @@
+name: TestPlugin20
+version: '${project.version}'
+main: newt.testplugin20.TestPlugin20
+api-version: 1.19
+commands:
+  setupGame:
+    description:
+    usage: /<command> isUp scoreMax
+  startGame:
+    description:
+    usage: /<command>
+  stopGame:
+    description:
+    usage: /<command>
+  go:
+    description:
+    usage: /<command>
+  leave:
+    description:
+    usage: /<command>
+  true:
+    description:
+    usage: /<command> string
+  false:
+    description:
+    usage: /<command> string
+  clearTrue:
+    description:
+    usage: /<command>
+  clearFalse:
+    description:
+    usage: /<command>
+  answer1:
+    description:
+    usage: /<command>
+  answer2:
+    description:
+    usage: /<command>
+  answer3:
+    description:
+    usage: /<command>
