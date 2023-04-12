@@ -107,7 +107,7 @@ public class PlayerData {
                     .getBlock().setType(blockToMaterial.get(score - amount + i));
         }
 
-        player.teleport(new Location(location.getWorld(), location.getBlockX() + 0.5, location.getBlockY() + 1, location.getBlockZ() + 0.5, location.getYaw(), location.getPitch()));
+        player.teleport(new Location(location.getWorld(), location.getBlockX() + 0.5, location.getBlockY() + 1, location.getBlockZ() + 0.5, player.getLocation().getYaw(), player.getLocation().getPitch()));
 
         //for(int i = 0; i < 8; i ++) {
         //    player.spawnParticle(part,

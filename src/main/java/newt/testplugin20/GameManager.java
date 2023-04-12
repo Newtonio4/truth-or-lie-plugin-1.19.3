@@ -163,7 +163,7 @@ public class GameManager {
     }
 
     private static void Win(Player p) {
-        NotifyEveryone(ChatColor.GREEN + "Раунд завершён, очки:");
+        NotifyEveryone(ChatColor.GREEN + "" + ChatColor.BOLD + "===================\nРаунд завершён, очки:");
 
         for (int i = 0; i < playerDataList.size(); i++) {
             NotifyEveryone(playerDataList.get(i).player.getName() + " - " + playerDataList.get(i).score);
