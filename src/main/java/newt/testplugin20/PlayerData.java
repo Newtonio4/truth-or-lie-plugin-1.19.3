@@ -72,6 +72,23 @@ public class PlayerData {
         blockToMaterial.put(29,Material.GREEN_CONCRETE_POWDER);
         blockToMaterial.put(30,Material.RED_CONCRETE_POWDER);
         blockToMaterial.put(31,Material.BLACK_CONCRETE_POWDER);
+
+        blockToMaterial.put(32,Material.WHITE_TERRACOTTA);
+        blockToMaterial.put(33,Material.ORANGE_TERRACOTTA);
+        blockToMaterial.put(34,Material.MAGENTA_TERRACOTTA);
+        blockToMaterial.put(35,Material.LIGHT_BLUE_TERRACOTTA);
+        blockToMaterial.put(36,Material.YELLOW_TERRACOTTA);
+        blockToMaterial.put(37,Material.LIME_TERRACOTTA);
+        blockToMaterial.put(38,Material.PINK_TERRACOTTA);
+        blockToMaterial.put(39,Material.GRAY_TERRACOTTA);
+        blockToMaterial.put(40,Material.LIGHT_GRAY_TERRACOTTA);
+        blockToMaterial.put(41,Material.CYAN_TERRACOTTA);
+        blockToMaterial.put(42,Material.PURPLE_TERRACOTTA);
+        blockToMaterial.put(43,Material.BLUE_TERRACOTTA);
+        blockToMaterial.put(44,Material.BROWN_TERRACOTTA);
+        blockToMaterial.put(45,Material.GREEN_TERRACOTTA);
+        blockToMaterial.put(46,Material.RED_TERRACOTTA);
+        blockToMaterial.put(47,Material.BLACK_TERRACOTTA);
     }
 
     public void RightAnswer() {
